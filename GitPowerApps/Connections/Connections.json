@@ -1,0 +1,31 @@
+{
+  "f5d77c7e-f981-42a4-b053-7cecbbe749cd": {
+    "appActions": [
+      "providers/PowerPlatform.Governance/Operations/Read",
+      "providers/PowerPlatform.Governance/Operations/Delete"
+    ],
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "Google Sheets",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1665/1.0.1665.3485/googlesheet/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_googlesheet",
+      "parameterHints": {},
+      "parameterHintsV2": {}
+    },
+    "datasets": {
+      "1NPWYYVLEROtt55F1D7IOR8YhZHqtNkZfVFi29Q82C4U": {
+        "dataSources": {
+          "Form responses 1": {
+            "tableName": "1274539609"
+          }
+        }
+      }
+    },
+    "dataSources": [
+      "Form responses 1"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "f5d77c7e-f981-42a4-b053-7cecbbe749cd"
+  }
+}

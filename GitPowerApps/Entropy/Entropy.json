@@ -1,0 +1,80 @@
+{
+  "ComponentIndexes": {},
+  "ControlUniqueGuids": {},
+  "ControlUniqueIds": {
+    "App": 1,
+    "Button1": 6,
+    "DataTable1": 7,
+    "date_visit_Column1": 8,
+    "Host": 3,
+    "name_Column1": 9,
+    "nric_Column1": 10,
+    "Screen1": 4,
+    "Timer2": 5
+  },
+  "FunctionParamsInvariantScripts": {},
+  "FunctionParamsInvariantScriptsOnInstances": {},
+  "HeaderLastSavedDateTimeUTC": "11/25/2023 08:08:49",
+  "IsLegacyComponentAllowGlobalScopeCase": false,
+  "LocalConnectionIDReferences": {
+    "f5d77c7e-f981-42a4-b053-7cecbbe749cd": "\"/providers/microsoft.powerapps/apis/shared_googlesheet/connections/181d21f2cf9f426c9b4bfe27e430316b\""
+  },
+  "LocalDatabaseReferencesAsEmpty": false,
+  "LocalResourceFileNames": {},
+  "LocalResourceRootPaths": {},
+  "OrderComponentMetadata": {},
+  "OrderComponentTemplate": {},
+  "OrderDataSource": {
+    "Form responses 1": 4,
+    "New tables": 3,
+    "New tables\\crce0_newtable3_statecode": 0,
+    "New tables\\crce0_newtable3_statuscode": 1,
+    "New tables\\default.cds_crce0_newtable3_views": 2
+  },
+  "OrderGroupControls": {},
+  "OrderPcfTemplate": {},
+  "OrderTemplate": {},
+  "OrderXMLTemplate": {
+    "button": 1,
+    "timer": 0
+  },
+  "OverridablePropertiesEntry": {
+    "App": {},
+    "Button1": {},
+    "DataTable1": {},
+    "date_visit_Column1": {},
+    "Host": {},
+    "name_Column1": {},
+    "nric_Column1": {},
+    "Screen1": {},
+    "Timer2": {}
+  },
+  "PCFDynamicSchemaForIRRetrievalEntry": {},
+  "PCFTemplateEntry": {},
+  "PublishOrderIndices": {
+    "App": 0,
+    "Button1": 1,
+    "DataTable1": 2,
+    "date_visit_Column1": 3,
+    "Host": 0,
+    "name_Column1": 4,
+    "nric_Column1": 5,
+    "Screen1": 0,
+    "Timer2": 0
+  },
+  "ResourcesJsonIndices": {},
+  "RuleScreenIdWithoutScreen": {},
+  "TemplateVersions": {},
+  "VolatileProperties": {
+    "AnalysisLoadTime": 0.0966991,
+    "ControlCount": {
+      "button": 1,
+      "dataTable": 1,
+      "dataTableColumn": 3,
+      "screen": 1,
+      "timer": 1
+    },
+    "DeserializationLoadTime": 3.7676504
+  },
+  "WasLocalDatabaseReferencesEmpty": false
+}

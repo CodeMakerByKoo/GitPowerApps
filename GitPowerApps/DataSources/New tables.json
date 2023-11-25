@@ -1,0 +1,99 @@
+[
+  {
+    "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
+    "EntitySetName": "crce0_newtable3s",
+    "IsHidden": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "LogicalName": "crce0_newtable3",
+    "MaxGetRowsCount": 500,
+    "Name": "New tables",
+    "NativeCDSDataSourceInfoNameMapping": {
+      "_ownerid_value": "Owner",
+      "crce0_date_visit": "date_visit",
+      "crce0_name": "name",
+      "crce0_newtable3_AsyncOperations": "System Jobs",
+      "crce0_newtable3_BulkDeleteFailures": "Bulk Delete Failures",
+      "crce0_newtable3_DuplicateBaseRecord": "Duplicate Records (crce0_newtable3_DuplicateBaseRecord)",
+      "crce0_newtable3_DuplicateMatchingRecord": "Duplicate Records (crce0_newtable3_DuplicateMatchingRecord)",
+      "crce0_newtable3_MailboxTrackingFolders": "Mailbox Auto Tracking Folders",
+      "crce0_newtable3_PrincipalObjectAttributeAccesses": "Field Sharing",
+      "crce0_newtable3_ProcessSession": "Process Sessions",
+      "crce0_newtable3_SyncErrors": "Sync Errors",
+      "crce0_newtable3id": "New table",
+      "crce0_nric": "nric",
+      "createdby": "Created By",
+      "createdon": "Created On",
+      "createdonbehalfby": "Created By (Delegate)",
+      "importsequencenumber": "Import Sequence Number",
+      "modifiedby": "Modified By",
+      "modifiedon": "Modified On",
+      "modifiedonbehalfby": "Modified By (Delegate)",
+      "overriddencreatedon": "Record Created On",
+      "owningbusinessunit": "Owning Business Unit",
+      "owningteam": "Owning Team",
+      "owninguser": "Owning User",
+      "statecode": "Status",
+      "statuscode": "Status Reason",
+      "timezoneruleversionnumber": "Time Zone Rule Version Number",
+      "utcconversiontimezonecode": "UTC Conversion Time Zone Code",
+      "versionnumber": "Version Number"
+    },
+    "PreferredName": "New tables",
+    "Type": "NativeCDSDataSourceInfo"
+  },
+  {
+    "DisplayName": "New tables (Views)",
+    "Name": "_crce0_newtable3_views",
+    "RelatedEntityName": "New tables",
+    "TrimmedViewName": true,
+    "Type": "ViewInfo",
+    "ViewInfoNameMapping": {
+      "1a500640-6aee-41a8-aab0-faf6ce89a163": "New table Advanced Find View",
+      "1ae69238-5b93-4585-89bc-6ab598168e8f": "New table Associated View",
+      "1bfb5d5b-4ac2-4a79-89ba-d3ceafb7f652": "New table Lookup View",
+      "ae204859-a485-4d8b-acce-c6f5fead77a1": "Inactive New tables",
+      "dc252131-6aca-48f2-98f4-7ee4b8f6ae80": "Active New tables"
+    }
+  },
+  {
+    "DisplayName": "Status (New tables)",
+    "Name": "crce0_newtable3_statecode",
+    "OptionSetInfoNameMapping": {
+      "0": "Active",
+      "1": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statecode",
+        "OptionSetReferenceEntityName": "New tables"
+      }
+    },
+    "OptionSetTypeKey": "StateType",
+    "RelatedColumnInvariantName": "statecode",
+    "RelatedEntityName": "New tables",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Status Reason (New tables)",
+    "Name": "crce0_newtable3_statuscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Active",
+      "2": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statuscode",
+        "OptionSetReferenceEntityName": "New tables"
+      }
+    },
+    "OptionSetTypeKey": "StatusType",
+    "RelatedColumnInvariantName": "statuscode",
+    "RelatedEntityName": "New tables",
+    "Type": "OptionSetInfo"
+  }
+]

@@ -1,0 +1,23 @@
+[
+  {
+    "ApiId": "/providers/microsoft.powerapps/apis/shared_googlesheet",
+    "CdpRevision": {
+      "BaseUrl": "/",
+      "LastChangedTimeString": "2023-10-30T17:38:28.6280000Z",
+      "RevisionNumber": 1
+    },
+    "ConnectedDataSourceInfoNameMapping": {
+      "__PowerAppsId__": "__PowerAppsId__",
+      "DateVisited": "DateVisited",
+      "Name": "Name",
+      "NRIC": "NRIC",
+      "Timestamp": "Timestamp"
+    },
+    "DatasetName": "1NPWYYVLEROtt55F1D7IOR8YhZHqtNkZfVFi29Q82C4U",
+    "EncodeDataset": true,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "Name": "Form responses 1",
+    "Type": "ConnectedDataSourceInfo"
+  }
+]

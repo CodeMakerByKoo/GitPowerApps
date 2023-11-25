@@ -1,0 +1,92 @@
+Screen1 As screen:
+    OnVisible: |
+        =
+
+    DataTable1 As dataTable.datatable:
+        BorderStyle: =BorderStyle.Solid
+        BorderThickness: =2
+        DisplayMode: =DisplayMode.Edit
+        Fill: =RGBA(0, 0, 0, 0)
+        Height: =336
+        Items: ='New tables'
+        Width: =628
+        X: =372
+        Y: =256
+        ZIndex: =1
+
+        date_visit_Column1 As dataTableColumn.dateTimeColumn:
+            DisplayMode: =DisplayMode.Edit
+            FieldDisplayName: ="date_visit"
+            FieldName: ="crce0_date_visit"
+            FieldVariantName: ="dateTimeColumn"
+            Height: =Parent.Height
+            LayoutHeight: =Parent.Height
+            Order: =1
+            Text: =Text(ThisItem.date_visit,DateTimeFormat.LongDateTime)
+            Width: =100
+            X: =0
+            Y: =0
+            ZIndex: =1
+
+        name_Column1 As dataTableColumn.textualColumn:
+            DisplayMode: =DisplayMode.Edit
+            FieldDisplayName: ="name"
+            FieldName: ="crce0_name"
+            FieldVariantName: ="textualColumn"
+            Height: =Parent.Height
+            LayoutHeight: =Parent.Height
+            Order: =2
+            Text: =ThisItem.name
+            Width: =100
+            X: =0
+            Y: =0
+            ZIndex: =2
+
+        nric_Column1 As dataTableColumn.numberColumn:
+            DisplayMode: =DisplayMode.Edit
+            FieldDisplayName: ="nric"
+            FieldName: ="crce0_nric"
+            FieldVariantName: ="numberColumn"
+            Height: =Parent.Height
+            LayoutHeight: =Parent.Height
+            Order: =3
+            Text: =ThisItem.nric
+            Width: =100
+            X: =0
+            Y: =0
+            ZIndex: =3
+
+    Button1 As button:
+        OnSelect: |
+            = Refresh('Form responses 1'); //Refresh Google form automatically every 5 seconds
+             
+             ForAll(
+                    'Form responses 1',
+                    Patch(
+                        'New tables',
+                        Defaults('New tables'),
+                        {
+                            name: Text(Name),
+                            nric: Text(NRIC),
+                            date_visit: DateValue(DateVisited)
+                        }
+                    )
+                ); // Patch Google Form data into Dataverse
+                RemoveIf(
+                    'Form responses 1',
+                    CountRows('Form responses 1') > 0
+                )// Remove all data in Google Form
+        Text: ="Download"
+        X: =372
+        Y: =196
+        ZIndex: =2
+
+    Timer2 As timer:
+        AutoStart: =true
+        Duration: =5000
+        OnTimerEnd: =Select(Button1)
+        Repeat: =true
+        X: =372
+        Y: =133
+        ZIndex: =6
+

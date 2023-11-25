@@ -1,0 +1,7 @@
+{
+  "DataEntityMetadataJson": {
+    "1274539609": "{\"name\":\"1274539609\",\"title\":\"Form responses 1\",\"x-ms-permission\":\"read-write\",\"schema\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"Timestamp\":{\"type\":\"string\",\"x-ms-keyOrder\":0,\"x-ms-keyType\":\"none\",\"x-ms-sort\":\"none\",\"x-ms-summary\":\"Timestamp\"},\"Name\":{\"type\":\"string\",\"x-ms-keyOrder\":0,\"x-ms-keyType\":\"none\",\"x-ms-sort\":\"none\",\"x-ms-summary\":\"Name\"},\"NRIC\":{\"type\":\"string\",\"x-ms-keyOrder\":0,\"x-ms-keyType\":\"none\",\"x-ms-sort\":\"none\",\"x-ms-summary\":\"NRIC\"},\"DateVisited\":{\"type\":\"string\",\"x-ms-keyOrder\":0,\"x-ms-keyType\":\"none\",\"x-ms-sort\":\"none\",\"x-ms-summary\":\"DateVisited\"},\"__PowerAppsId__\":{\"type\":\"string\",\"x-ms-keyOrder\":1,\"x-ms-keyType\":\"primary\",\"x-ms-sort\":\"none\",\"x-ms-summary\":\"__PowerAppsId__\",\"x-ms-permission\":\"read-only\"}}}}}"
+  },
+  "EntityName": "Form responses 1",
+  "TableName": "1274539609"
+}
